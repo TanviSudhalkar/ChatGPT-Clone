@@ -1,18 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { CircleQuestionMark } from "lucide-react";
 import { MoveUpRight } from 'lucide-react';
+import useClickOutside from './useClickOutside';
 
 const Help = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const ref = useRef(null);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
+    useClickOutside(ref, () =>setIsOpen(false));
+        
+    // const toggleDropdown = () => {
+    //     setIsOpen(!isOpen);
+    // };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-left" ref={ref}>
         <div>
-            <button onClick={toggleDropdown} className="inline-flex justify-center w-full rounded-full px-2 py-2 
+            <button onClick={()=> setIsOpen(prev => !prev)} className="inline-flex justify-center w-full rounded-full px-2 py-2 
             hover:bg-white/10 focus:outline-none"> 
                 <CircleQuestionMark className='flex self-end' />                    
             </button>

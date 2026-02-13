@@ -1,8 +1,9 @@
 import React from 'react';
 const LogandSign = ({ hideSignupOnMobile = false }) => {
     return (
-        <div className="space-x-1 inline-flex">
-            <button href="#" className="text-black w-30 p-2 bg-white rounded-full focus:outline-none 
+        // <div className="space-x-1 inline-flex">
+        <div className="flex flex-wrap gap-2"> 
+            <button href="#" className="text-black p-2 bg-white rounded-full focus:outline-none 
             text-sm cursor-pointer "> 
                 Log in                   
             </button>

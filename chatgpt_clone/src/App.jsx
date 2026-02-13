@@ -4,7 +4,7 @@ import Main from './components/Main'
 
 const App = () => {
   return (
-    <div className='flex flex-col border-4 min-h-screen bg-color text-white'>
+    <div className='flex flex-col border-0 min-h-screen h-dvh w-full overflow-hidden max-h-dvh bg-black text-white'>
       <Header/>
       <Main/>
     </div>
