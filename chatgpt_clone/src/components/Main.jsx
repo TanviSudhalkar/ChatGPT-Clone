@@ -90,24 +90,24 @@ const handleSend = async () => {
             /> 
             
             <div className='absolute flex bottom-3 gap-2 w-full px-2 overflow-x-auto no-scrollbar'>
-              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl ml-2 border border-white px-3 py-1.5 text-white hover:bg-white/10"> 
+              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl ml-2 border border-white px-3 py-1.5 text-white hover:bg-white/30"> 
                 <Paperclip className='h-4 w-4'/> 
                 <span className='hidden md:inline pl-2 text-sm'>Attach</span> 
               </button> 
-              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/10"> 
+              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/30"> 
                 <Globe className='h-4 w-4'/> 
                 <span className='hidden md:inline pl-2 text-sm'>Search</span>
               </button>
-              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/10"> 
+              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/30"> 
                 <BookOpen className='h-4 w-4'/> 
                 <span className='hidden md:inline pl-2 text-sm'>Study</span>
               </button>
-              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/10"> 
+              <button type='button' className="flex-shrink-0 flex items-center rounded-3xl border border-white px-3 py-1.5 text-white hover:bg-white/30"> 
                 <Images className='h-4 w-4'/> 
                 <span className='hidden md:inline pl-2 text-sm'>Create image</span>
               </button>
               <button type='button' onClick={handleSend} className="ml-auto mr-4 self-center">
-                <CircleArrowUp className='w-8 h-8 text-white hover:opacity-70 transition-opacity'/> 
+                <CircleArrowUp className='w-8 h-8 text-white hover:opacity-50 transition-opacity'/> 
               </button> 
             </div> 
           </div> 
