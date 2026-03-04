@@ -2,7 +2,7 @@ import React from 'react'
 import chatgptIcon from '../assets/chatgpt.png'
 import Dropdown from './Dropdown.jsx';
 import LogandSign from './LogandSign.jsx';
-import Help from './help.jsx';
+import Help from './Help.jsx';
 import { ChevronDown } from 'lucide-react';
 import { CircleQuestionMark } from 'lucide-react';
 
