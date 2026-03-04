@@ -1,6 +1,6 @@
 import React from 'react'
 import chatgptIcon from '../assets/chatgpt.png'
-import Dropdown from './DropDown.jsx';
+import Dropdown from './Dropdown.jsx';
 import LogandSign from './LogandSign.jsx';
 import Help from './help.jsx';
 import { ChevronDown } from 'lucide-react';
