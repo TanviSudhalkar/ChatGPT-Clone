@@ -36,7 +36,7 @@ const Dropdown = () => {
                     <div className="py-1" role="none">
                         <div className="w-full bg-neutral-800">
                             <img className="h-24 w-full object-cover rounded-t-xl" alt="a gradient background"
-                            src="/src/assets/bkimage.svg"/>
+                            src="/assets/bkimage.svg"/>
                         </div>
                         <div className="px-2 py-2" role="menuitem">
                             <h3 className="text-xl">Try advanced features for free</h3>
